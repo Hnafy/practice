@@ -22,7 +22,8 @@
 ```
 ## paragraph_formatted
 ```html
-<pre>	Defines pre-formatted text example 
+<pre>	Defines pre-formatted text example
+ 
 <pre>
 This is
 a paragraph
@@ -44,6 +45,6 @@ the same
 ## new line
 ```html
 <br> This elements to make new line
-[!NOTE]
-do not have an end tag
 ```
+> [!NOTE]
+> do not have an end tag
