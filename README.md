@@ -13,7 +13,6 @@
 </html> 
 ```
 ```html
-> [!NOTE]
 > <!DOCTYPE html> declaration represents the document type, and helps browsers to display web pages correctly
 ```
 
@@ -154,7 +153,6 @@ the same
 - <var>
 ```
 
-> [!NOTE]
 ```html
 > <div> The element is often used as a container for other HTML elements.
 > <span> The element is an inline container used to mark up a part of a text, or a part of a document.
