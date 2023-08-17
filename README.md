@@ -157,8 +157,6 @@ the same
 > <div> The element is often used as a container for other HTML elements.
 > <span> The element is an inline container used to mark up a part of a text, or a part of a document.
 ```
-=======
->>>>>>> parent of ffaad87 (HTML Basic)
 
 ## new line
 ```html
