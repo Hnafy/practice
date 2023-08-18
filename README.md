@@ -141,6 +141,8 @@ the same
 - <q>
 - <samp>
 - <script>
+```
+```html
 - <select>
 - <small>
 - <span>
