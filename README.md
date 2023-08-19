@@ -12,8 +12,9 @@
 </body>
 </html> 
 ```
-> [!NOTE]
+```html
 > <!DOCTYPE html> declaration represents the document type, and helps browsers to display web pages correctly
+```
 
 ## title
 ```html
@@ -140,6 +141,8 @@ the same
 - <q>
 - <samp>
 - <script>
+```
+```html
 - <select>
 - <small>
 - <span>
@@ -153,12 +156,9 @@ the same
 ```
 
 ```html
-> [!NOTE]
 > <div> The element is often used as a container for other HTML elements.
 > <span> The element is an inline container used to mark up a part of a text, or a part of a document.
 ```
-=======
->>>>>>> parent of ffaad87 (HTML Basic)
 
 ## new line
 ```html

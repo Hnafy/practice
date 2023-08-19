@@ -1,7 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-    
+    <title>Document</title>
+    <style>
+        table {
+            width: 100%;
+            color: rgb(202, 162, 0); 
+            padding: 3px;
+        }
+        th , td {
+            border: 1px solid #dddd;
+            border-color: black;
+        }
+        tr:nth-child(even) {
+            background-color: #dddddd;
+        }
+    </style>
 </head>
 <body>
     <h1> head this is my heading (H1) </h1>
@@ -19,5 +33,37 @@ with line breaks.
     <p>This is<br>a paragraph<br>with line breaks.</p>
     <br>
     <img src="images/Cristiano-Ronaldo.png" alt="Cristiano Ronaldo" width="104" height="142">
+    <div style="width: 1000px; height: 500px; background: red;">
+        <center><p style="color: white;">ahmed</p></center>
+    </div>
+    <table>
+        <center><caption style="background-color: #dddddd;">Table</caption></center>
+        <thead>
+            <tr style="color: red;">
+                <th></th>
+                <th>Month</th>
+                <th>Savings</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>ahmed</td>
+                <td>January</td>
+                <td>$100</td>
+            </tr>
+            <tr>
+                <td>saif</td>
+                <td>February</td>
+                <td>$80</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>gana</td>
+                <td>Sum</td>
+                <td>$180</td>
+            </tr>
+        </tfoot>
+    </table>
 </body>
 </html>
