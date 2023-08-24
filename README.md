@@ -85,3 +85,21 @@ the same
 ```
 > [!NOTE]
 > <br> do not have an end tag
+
+## forms
+```html
+<label> tag defines a label for many form elements.
+<input type="text">	Displays a single-line text input field
+<input type="email"> is used for input fields that should contain an e-mail address.
+<input type="radio">	Displays a radio button (for selecting one of many choices)
+<input type="checkbox">	Displays a checkbox (for selecting zero or more of many choices)
+<input type="submit">	Displays a submit button (for submitting the form)
+<input type="button">	Displays a clickable button
+<textarea>	Defines a multiline input control (text area)
+<fieldset>	Groups related elements in a form
+<select>	Defines a drop-down list
+<option>	Defines an option in a drop-down list
+<datalist>	Specifies a list of pre-defined options for input controls
+```
+> [!NOTE]
+> The for attribute of the <label> tag should be equal to the id attribute of the <input> element to bind them together.
