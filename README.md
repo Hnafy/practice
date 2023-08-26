@@ -184,3 +184,36 @@ the same
 ```
 > [!NOTE]
 > The for attribute of the <label> tag should be equal to the id attribute of the <input> element to bind them together.
+
+## css
+CSS stands for Cascading Style Sheets
+The style definitions are normally saved in external .css files
+Internal CSS
+> Internal styles are defined within the <style> element, inside the <head> section of an HTML page
+Inline CSS
+> Inline styles are defined within the "style" attribute of the relevant element
+External CSS
+> If some properties have been defined for the same selector (element) in different style sheets after the link to the external style sheet by <link> element, inside the <head> section of an HTML page
+> [!NOTE]
+> universal selector (*) selects all HTML elements on the page.
+> write a period (.) character, followed by the class name.
+> write a hash (#) character, followed by the id of the element.
+
+## color
+In CSS, colors can also be specified using RGB values, HEX values, HSL values, RGBA values, and HSLA values
+```css
+background-color: DodgerBlue;
+color: Tomato;
+border: 2px solid Violet;
+```
+
+## background
+### background-color
+background-color property specifies the background color of an element.
+opacity property specifies the opacity/transparency of an element. It can take a value from 0.0 - 1.0. The lower value, the more transparent
+### background-image
+background-image property specifies an image to use as the background of an element.
+By default, the image is repeated so it covers the entire element we can use background-repeat: no-repeat;
+background-position property is used to specify the position of the background image.
+The background-attachment property specifies whether the background image should scroll or be fixed (will not scroll with the rest of the page)
+background-size property specifies the size of the background images.
