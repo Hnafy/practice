@@ -217,3 +217,55 @@ By default, the image is repeated so it covers the entire element we can use bac
 background-position property is used to specify the position of the background image.
 The background-attachment property specifies whether the background image should scroll or be fixed (will not scroll with the rest of the page)
 background-size property specifies the size of the background images.
+
+## border
+border-width property specifies the width of the four borders
+border-style property specifies what kind of border
+border-color property is used to set the color of the four borders
+shorten the code, it is also possible to specify all the individual border properties in one property an example (border: 5px solid red;)
+
+## margin
+margin	A shorthand property for setting all the margin properties in one declaration
+
+## padding
+padding	A shorthand property for setting all the padding properties in one declaration
+
+## display
+block
+- take full width if no width
+- add line break
+- respect padding , margin , width , hight
+
+inline
+- do not respect width, height
+- respect padding and margin [just left + right]
+- do not add line break
+- allow elements before and after it
+
+inline-block
+- allow elements before and after it
+- respect padding, margin, width, height
+
+display: none; The element will be hidden, and the page will be displayed as if the element is not there
+visibility:hidden; the element will still take up the same space as before. The element will be hidden, but still affect the layout
+
+## overflow
+overflow property controls what happens to content that is too big to fit into an area
+- visible - Default. The overflow is not clipped. The content renders outside the element's box
+- hidden - The overflow is clipped, and the rest of the content will be invisible
+- scroll - The overflow is clipped, and a scrollbar is added to see the rest of the content
+- auto - Similar to scroll, but it adds scrollbars only when necessary
+
+## text
+text-align property is used to set the horizontal alignment of a text
+direction and unicode-bidi properties can be used to change the text direction of an element
+vertical-align property sets the vertical alignment of an element
+vertical-align property sets the vertical alignment of an element
+text-transform property is used to specify uppercase and lowercase letters in a text
+letter-spacing property is used to specify the space between the characters in a text
+line-height property is used to specify the space between lines
+word-spacing property is used to specify the space between the words in a text
+white-space property specifies how white-space inside an element is handled
+font-family property to specify the font of a text
+> [!NOTE]
+> inherit keyword specifies that a property should inherit its value from its parent element.
