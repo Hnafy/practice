@@ -1,41 +1,36 @@
-body{
-    font-family: 'Courier New', Courier, monospace;
+ul.a {
+    list-style-type: circle;
 }
-.mydiv{
-    background-color: aqua;
-    width: 300px;
-    border: 1px solid red;
-    margin: 20px;
-    padding: 50px;
+
+ul.b {
+    list-style-type: square;
 }
-.mydiv2{
-    background-color: aqua;
-    max-width: 300px;
-    border: 1px solid red;
-    margin: 20px;
-    padding: 50px;
-    display: inline-block;
+
+ol.c {
+    list-style-type: upper-roman;
 }
-p.solid {
-    border-width: 5px;
-    border-style: solid;
-    border-color: red;
+
+ol.d {
+    list-style-type: lower-alpha;
 }
-p{
-    border: 5px solid red;
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
 }
-div a{
-    text-decoration: none;
-    color: greenyellow;
-    letter-spacing: 3px;
-}
-div{
-    text-transform: uppercase;
-    text-align: left;
-    direction: rtl;
-    width: fit-content;
-    background-color: black;
+tbody td{
+    border: 1px solid black;
     padding: 8px;
-    border: 3px solid red;
-    border-radius: 5px;
 }
+table th {
+    padding: 12px 0 12px;
+    background-color: green;
+    color: white;
+}
+tfoot td{
+    padding: 12px 0 12px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+

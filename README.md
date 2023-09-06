@@ -269,3 +269,24 @@ white-space property specifies how white-space inside an element is handled
 font-family property to specify the font of a text
 > [!NOTE]
 > inherit keyword specifies that a property should inherit its value from its parent element.
+
+## table
+To make a cell span over multiple columns, use the colspan attribute
+To make a cell span over multiple rows, use the rowspan attribute
+To avoid having double borders like in the example above, set the CSS border-collapse property to collapse
+
+## list
+list-style-type property is used to define the style of the list item marker. It can have one of the following values:
+
+disc	Sets the list item marker to a bullet (default)
+circle	Sets the list item marker to a circle
+square	Sets the list item marker to a square
+none	The list items will not be marked
+
+The type attribute of the <ol> tag, defines the type of the list item marker:
+
+type="1"	The list items will be numbered with numbers (default)
+type="A"	The list items will be numbered with uppercase letters
+type="a"	The list items will be numbered with lowercase letters
+type="I"	The list items will be numbered with uppercase roman numbers
+type="i"	The list items will be numbered with lowercase roman numbers
